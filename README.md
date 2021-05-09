@@ -18,7 +18,7 @@
 
 
 ## Description
-An online image repository that allows users to sign in using Single Sign-On (sso) to upload images that tells an ongoing story based on uploaded images by other users. Think of pictionary....but different.  
+An online image repository that allows users to sign in using Single Sign-On (sso) to upload images that tells an ongoing story based on uploaded images by other users. Think of pictionary....but different. Also, do try the dark mode toggler to the left of the page. It truly is my favourite thing!
 
 
 ## Installation 
@@ -57,6 +57,7 @@ Technologies used:
 * Pixaby Images
 * Travis CI 
 * ESLint 
+* Dark Mode Toggler
 
 ## Credits 
 Credit to: </br>
