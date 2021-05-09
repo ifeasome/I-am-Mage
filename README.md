@@ -43,9 +43,9 @@ This app for those with an avid imagination. Join in the collective picture-tell
 
 
 ## Tests 
-Install program as detailed here: [Installation](#Installation). 
-As this is a very basic web application, all tests were ran locally.
-View Testing Run: ![Test Run](./I-Am-Mage.gif)
+Install program as detailed here: [Installation](#Installation). </br>
+As this is a very basic web application, all tests were ran locally.</br>
+View Testing Run: ![Test Run](./I-Am-Mage.gif)</br>
 
 ## Technologies
 Technologies used: 
