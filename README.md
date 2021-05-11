@@ -4,11 +4,13 @@
 ![License Badge](https://img.shields.io/badge/react-js-blue)
 ![License Badge](https://img.shields.io/badge/-Travis-brightgreen)
 ![License Badge](https://img.shields.io/badge/-ESLint-orange)
+![License Badge](https://img.shields.io/badge/-cypress-purple)
 
 ## Table of Contents 
 * [Description](#Descritpion)
 * [Installation](#Installation)
 * [Usage](#Usage)
+* [Application_Demo](#Application_Demo)
 * [Tests](#Tests)
 * [Technologies](#Technologies)
 * [Credits](#Credits)
@@ -16,13 +18,11 @@
 * [Contribution](#Contribution)
 * [Contact Information](#ContactInfo)
 
-
 ## Description
 An online image repository that allows users to sign in using Single Sign-On (sso) to upload images that tells an ongoing story based on uploaded images by other users. Think of pictionary....but different. Also, do try the dark mode toggler to the left of the page. It truly is my favourite thing!
 
 
 ## Installation 
-
 No installation required to run application. 
 
 However, 
@@ -34,18 +34,26 @@ To clone program's repo, run the following command line in your terminal/git bas
 
 To view repo, go to: [Application Repo](https://github.com/ifeasome/i-am-mage).
 
-
 ## Usage 
-This app for those with an avid imagination. Join in the collective picture-telling. You put up a pciture that says something without words and continue the story of others before you. It is a relay pictionary game. You add a picture and see how yours fits in with the evergoing story. See [Tests](#Tests) for a demo on how the app runs.
-
+This app for those with an avid imagination. Join in the collective picture-telling. You put up a pciture that says something without words and continue the story of others before you. It is a relay pictionary game. You add a picture and see how yours fits in with the evergoing story. See [Application_Demo](#Application_Demo) for a demo on how the app runs.
 
 [Deployed App](https://i-am-mage-899e0.web.app/login)
 
+## Application_Demo 
+See Application Demo below: </br>
+![Demo Run](./I-Am-Mage.gif)
 
 ## Tests 
 Install program as detailed here: [Installation](#Installation). </br>
-As this is a very basic web application, all tests were ran locally.</br>
-![Test Run](./I-Am-Mage.gif)
+All tests are run using cypress end-to-end testing as well individual user testing. </br>
+See Test Run Below: </br>
+![Test Run](./Test_Run.gif)</br>
+To run test locally, run the following command line in your terminal/git bash: 
+
+`npm install cypress --save-dev`
+
+> For more indepth information on Cypress Testing go through [Cypress Docs](https://docs.cypress.io/guides/getting-started/installing-cypress). </br>
+
 
 ## Technologies
 Technologies used: 
@@ -58,6 +66,7 @@ Technologies used:
 * Travis CI 
 * ESLint 
 * Dark Mode Toggler
+* Cypress Testing 
 
 ## Credits 
 Credit to: </br>
